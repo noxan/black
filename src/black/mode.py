@@ -229,6 +229,7 @@ class Preview(Enum):
     wrap_comprehension_in = auto()
     simplify_power_operator_hugging = auto()
     wrap_long_dict_values_in_parens = auto()
+    fix_if_guard_explosion_in_case_statement = auto()
 
 
 UNSTABLE_FEATURES: set[Preview] = {
